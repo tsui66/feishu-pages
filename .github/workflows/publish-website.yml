@@ -26,7 +26,7 @@ jobs:
           FEISHU_APP_SECRET: ${{ secrets.FEISHU_APP_SECRET }}
           FEISHU_SPACE_ID: '7338695984207101957'
           OUTPUT_DIR: ./dist
-          BASE_URL: https://longbridgeapp.github.io/feishu-pages/
+          BASE_URL: https://tsui66.github.io/tech-stack-fo-global-startups/
         uses: longbridgeapp/feishu-pages@main
       - name: Build Website
         run: |
