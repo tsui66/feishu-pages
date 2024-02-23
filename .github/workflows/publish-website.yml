@@ -22,7 +22,7 @@ jobs:
 
       - name: Exporting
         env:
-          FEISHU_ENDPOINT: 'https://open.larksuite.com/'
+          FEISHU_ENDPOINT: 'https://open.larksuite.com'
           FEISHU_APP_ID: ${{ secrets.FEISHU_APP_ID }}
           FEISHU_APP_SECRET: ${{ secrets.FEISHU_APP_SECRET }}
           FEISHU_SPACE_ID: '7338695984207101957'
