@@ -24,7 +24,7 @@ jobs:
         env:
           FEISHU_APP_ID: ${{ secrets.FEISHU_APP_ID }}
           FEISHU_APP_SECRET: ${{ secrets.FEISHU_APP_SECRET }}
-          FEISHU_SPACE_ID: '7273324757679325186'
+          FEISHU_SPACE_ID: '7338695984207101957'
           OUTPUT_DIR: ./dist
           BASE_URL: https://longbridgeapp.github.io/feishu-pages/
         uses: longbridgeapp/feishu-pages@main
